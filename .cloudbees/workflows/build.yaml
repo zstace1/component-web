@@ -28,9 +28,9 @@ jobs:
           artifact-metadata: |
             [
               {
-                "name": "docker.io/mock/database",
+                "name": "docker.io/mock/web",
                 "version": "${{ cloudbees.version }}",
-                "url": "docker.io/mock/database:${{ cloudbees.version }}",
+                "url": "docker.io/mock/web:${{ cloudbees.version }}",
                 "type": "docker"
               }
             ]
